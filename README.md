@@ -20,12 +20,12 @@ Ela esta ligada ao tempo de SLA que varia dependendo do serviço e consequenteme
 Ajustes automáticos ou manuais para atender a uma demanda específica. Esse ajustes podem ser diminuídos quandos não estiverem mais sendo usados, retornando ao estado que era antes.
 Se divide em dimensionamento certical e horizontal.
 
-  2.1 Dimensionamento vertical
-  Quando precisamos de mais recurso da máquina como por exemplo, processador e memória.
+2.1 Dimensionamento vertical
+Quando precisamos de mais recurso da máquina como por exemplo, processador e memória.
 
-  2.2 Dimensionamento horizontal
-  Quando devido a algum evento ou necessidados a empresa precisa de um aumento dos recursos de forma repentina, por exemplo, mais máquina virtuais.
-  Nesse caso esse aumento podeser feito de forma automática.
+2.2 Dimensionamento horizontal
+Quando devido a algum evento ou necessidados a empresa precisa de um aumento dos recursos de forma repentina, por exemplo, mais máquina virtuais.
+Nesse caso esse aumento podeser feito de forma automática.
 
 3. Confiabilidade
 Os recursos da nuvem podem estar implantados em vários locais no mundo, ou seja, algum recurso pode esta num local que por algum motivo não esteja funcionando e outro local como e mesmo recurso estaja em perfeito funcionamento não deixando o cliente com o serviço sem funcionar.
