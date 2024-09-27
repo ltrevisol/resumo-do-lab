@@ -48,14 +48,16 @@ Sobre a governança, os serviços são gerenciados por pessoas que atendem a pad
 São conceitos e padrões que são adotados por vários provedores de nuvem do mercado.
 
 IaaS - Infraestrutura como serviço
-Nesse tipo o cliente gerencia a administrada a mioria dos recursos que ele tem contratado com o provedor de nuvem, ou seja, grande parte das configurações, administração, segurança, entre outro são de responsabilidade do cliente. Ele possui um gerenciamento mais amplo dos recursos dele.
+Nesse tipo o cliente gerencia a administrada a maioria dos recursos que ele tem contratado com o provedor de nuvem, ou seja, grande parte das configurações, administração, segurança, entre outro são de responsabilidade do cliente. Ele possui um gerenciamento mais amplo dos recursos que ele tem. O provedor disponibiliza o hardware, conexão de rede e a segurança física o resto fica por conta do cliente.
+É o modelo que a responsabilidade compartilhada fica a cargo do cliente porque ele é responsável pela infraestrutura que ele utiliza.
 
 PaaS - Plataforma como serviço
-No PaaS o provedor de nuvem disponibiliza a plataforma para que o cliente possa, por exemplo, realizar o desenvolvimento da aplicação junto com as configurações do banco de dados. Nesse cenário o cliente não se preocupa com as configurações da máquina, como instalação, administração e gerênciamento, ele recebe a máquina pronta e realiza as configurações necessária para a sua aplicação.
+No PaaS o provedor de nuvem disponibiliza a plataforma para que o cliente possa, por exemplo, realizar o desenvolvimento da aplicação junto com as configurações do banco de dados. Nesse cenário o cliente não se preocupa com as configurações da máquina, como instalação, administração e gerenciamento, ele recebe a máquina pronta e realiza as configurações necessária para ter ambiente de desenvolimento completo da sua aplicação.
+A responsabilidade é dividia entre o provedor e o cliente.
 
 SaaS - Software como serviço
-O provedor possui uma plataforma que abrange várias aplicações e o cliente adquire as licenças das aplicações que são necessárias para sua necessidade. Esse tipo é mais voltado para a questão de licenciamento.
-
+O provedor possui uma plataforma que abrange várias aplicações e o cliente adquire as licenças das aplicações que são necessárias para a sua necessidade. Esse tipo é mais voltado para a questão de licenciamento e é o que menos precisa de conhecimento técnico.
+Aqui a maior responsabilide fica por conta do provedor, pos ele que fornece os serviços de toda a plataforma. O cliente fica por conta dos acessos dos usuários, pelos dados inseridos, tipos de acesso entre outros, por exemplo.
 
 
 
