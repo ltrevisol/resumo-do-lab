@@ -42,7 +42,19 @@ Se paga pelo que é usado, ou seja, todo o recurso tem seu respectivo custo que 
 7. Segurança e governança.
 Por serem acessados por vários clientes diferentes, armazenamento de informações, dentre outras coisas, a preocupação e melhorais com a segurança são constantes nos provedores de nuvem. Essa segurança pode ser fornecida para que o cliente tenhao o controle máximo dos seus serviços bem como a parte do provedor da nuvem.
 Sobre a governança, os serviços são gerenciados por pessoas que atendem a padrões regulatórios e corporativos, dependendo da área que a empresa trabalha.
-    
+
+## Curso tipos de serviços de Nuvem
+
+São conceitos e padrões que são adotados por vários provedores de nuvem do mercado.
+
+IaaS - Infraestrutura como serviço
+Nesse tipo o cliente gerencia a administrada a mioria dos recursos que ele tem contratado com o provedor de nuvem, ou seja, grande parte das configurações, administração, segurança, entre outro são de responsabilidade do cliente. Ele possui um gerenciamento mais amplo dos recursos dele.
+
+PaaS - Plataforma como serviço
+No PaaS o provedor de nuvem disponibiliza a plataforma para que o cliente possa, por exemplo, realizar o desenvolvimento da aplicação junto com as configurações do banco de dados. Nesse cenário o cliente não se preocupa com as configurações da máquina, como instalação, administração e gerênciamento, ele recebe a máquina pronta e realiza as configurações necessária para a sua aplicação.
+
+SaaS - Software como serviço
+O provedor possui uma plataforma que abrange várias aplicações e o cliente adquire as licenças das aplicações que são necessárias para sua necessidade. Esse tipo é mais voltado para a questão de licenciamento.
 
 
 
