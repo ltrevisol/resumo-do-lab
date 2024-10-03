@@ -61,7 +61,15 @@ Aqui a maior responsabilide fica por conta do provedor, pos ele que fornece os s
 
 ## Curso componentes da arquitetura do azure
 
-Regiões - São locais onde estão os datacenters da Microsoft. Eles estão próximos um dos outros, interligados através de redes de alta velocidade com baixa latência. Essas regiões geralmente possuem três datacenters e armazenam os dados nos três, ou seja, replicam as informações entre eles ficando todos com as mesas informações, caso um ou dois deles falharem por algum motivo, tem o terceiro que ainda consegue deixar os serviços disponíveis. Também é possível fazer a cópia de algumas informções para regiões diferentes, porém é necessário verificar a legislação de cada país permite elas saiam dele.
+Regiões - São locais onde estão os datacenters da Microsoft. Eles estão próximos um dos outros, interligados através de redes de alta velocidade com baixa latência formando zonas de disponibilidade. Essas regiões geralmente possuem três datacenters e armazenam os dados nos três, ou seja, replicam as informações entre eles ficando todos com as mesas informações, caso um ou dois deles falharem por algum motivo, tem o terceiro que ainda consegue deixar os serviços disponíveis. Também é possível fazer a cópia de algumas informções para regiões diferentes, porém é necessário verificar a legislação de cada país permite elas saiam dele.
+
+Pares de regiões - É quando uma região tem outra como par, ou seja, caso ocorra alguma interrupção com a região original ela possui a sua região para que será a primeira a replicar alguma serviço para que ele não fique indisponível. Essa replicação pode ser automática, dependendo do serviço. Também consideramos essa região para como o serviço de disaster recovery da região original.
+
+Regiões Soberanas - São regiões isoladas que não são disponibilizadas para os clientes em geral, geralmente seu acesso fica específico para o governo.
+
+Recursos em nuvem - São todos os recursos que o provedor oferece para que seja criado, como redes privadas, máquinas, banco de dados, entre outros, podendo criar toda a infraestrutura que uma empresa precisa na nuvem. Esses recursos são criados dentro dos grupos de recursos para um melhor gerenciamento e controle. É possível mover os recursos em grupos de recursos diferentes e criar mais de uma grupo de recurso. Porém os recursos podem existir em somente um grupo de recursos e esses grupos podem ser criados em regiões diferentes.
+
+Assinaturas e grupos de gerenciamento no azure - Permite que uma conta possua várias assinaturas, ou seja, essa conta pode ter uma assinatura de teste, outra para produção, outra para homologação e assim por diante. Uma assinatura só pode ser associada a uma conta. Cada assinatura terá uma fatura de pagamento para ela. Nessa assinatura tem os controles de acesso, limite de cobrança, autenticação a autorização nas contas do azure. Os grupos de gerenciamento podes trabalhar padrões para mais de uma assinatura, eles estão hierarquicamente acima das assinatura e gerenciam elas.
 
 
 
