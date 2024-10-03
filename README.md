@@ -59,6 +59,9 @@ SaaS - Software como serviço
 O provedor possui uma plataforma que abrange várias aplicações e o cliente adquire as licenças das aplicações que são necessárias para a sua necessidade. Esse tipo é mais voltado para a questão de licenciamento e é o que menos precisa de conhecimento técnico.
 Aqui a maior responsabilide fica por conta do provedor, pos ele que fornece os serviços de toda a plataforma. O cliente fica por conta dos acessos dos usuários, pelos dados inseridos, tipos de acesso entre outros, por exemplo.
 
+## Curso componentes da arquitetura do azure
+
+Regiões - São locais onde estão os datacenters da Microsoft. Eles estão próximos um dos outros, interligados através de redes de alta velocidade com baixa latência. Essas regiões geralmente possuem três datacenters e armazenam os dados nos três, ou seja, replicam as informações entre eles ficando todos com as mesas informações, caso um ou dois deles falharem por algum motivo, tem o terceiro que ainda consegue deixar os serviços disponíveis. Também é possível fazer a cópia de algumas informções para regiões diferentes, porém é necessário verificar a legislação de cada país permite elas saiam dele.
 
 
 
