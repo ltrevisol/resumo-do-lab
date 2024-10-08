@@ -71,5 +71,16 @@ Recursos em nuvem - São todos os recursos que o provedor oferece para que seja 
 
 Assinaturas e grupos de gerenciamento no azure - Permite que uma conta possua várias assinaturas, ou seja, essa conta pode ter uma assinatura de teste, outra para produção, outra para homologação e assim por diante. Uma assinatura só pode ser associada a uma conta. Cada assinatura terá uma fatura de pagamento para ela. Nessa assinatura tem os controles de acesso, limite de cobrança, autenticação a autorização nas contas do azure. Os grupos de gerenciamento podes trabalhar padrões para mais de uma assinatura, eles estão hierarquicamente acima das assinatura e gerenciam elas.
 
+## Curso Computação e rede na Azure
+
+Máquinas virtuais - é um recurso disponibilizado pela Azure que disponibilizado para o cliente ciarem elas conforme a sua necessidade. A plataforma também oferece máquinas virtuais com determinados padrões para atender a certas demandas, como por exemplo para ambientes de teste. Elas podem ser criadas e configuradas para atender a uma demanda específica. Vários são os parâmetros que se tem que definir na criação delas, como por exemplo a processamento, quantidade de memória, configurações de rede, local em que elas srão criadas, entre outros. É uma excelente opção de flexibilização.
+
+Conjuntos de disponibilidade - oferecem mais segurança para as máquinas virtuais, pois colocam elas em agrupamentos lógicos que reduz as chances de falhas. Elas ficam em diferentes domínios para maior confiabilidade. Elas são alocadas em maior proximidade oferecendo latência menores entre elas.
+
+Contêiner do azure - contêiner virtualiza o sistema operacional e faz com que o aplicativo conteinerizado detecto que o sistema operacional esta totalmente a sua disposição. Ele pode ser implantando e executado em qualquer local, são muito mais eficientes, leves e portáteis. Eles fornecem agilidade porque ele empacota um aplicativo e encmainha para a TI para execução em uma plataforma padronizada, fornecem um formato padronizado de todos os componentes necessários para executar o aplicativo e possibilitam cenários em que possam escalar e reduzir verticalmente rapidamente.
+
+Azure functions - 
+
+
 
 
