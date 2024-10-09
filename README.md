@@ -79,7 +79,9 @@ Conjuntos de disponibilidade - oferecem mais segurança para as máquinas virtua
 
 Contêiner do azure - contêiner virtualiza o sistema operacional e faz com que o aplicativo conteinerizado detecto que o sistema operacional esta totalmente a sua disposição. Ele pode ser implantando e executado em qualquer local, são muito mais eficientes, leves e portáteis. Eles fornecem agilidade porque ele empacota um aplicativo e encmainha para a TI para execução em uma plataforma padronizada, fornecem um formato padronizado de todos os componentes necessários para executar o aplicativo e possibilitam cenários em que possam escalar e reduzir verticalmente rapidamente.
 
-Azure functions - 
+Azure functions - não requer a manutenção de máquinas virtuais ou contêineres. Um evento ativa a função, sem a necessidade de manter os recursos provisionados quando não tem eventos. O time de desenvolvimento não precisa se preocupar com a infraestrutura, apenas com o desenvolvimento da aplicação que executa o serviço. O azure functions é ideal para utilização sobre demandas, ou seja, conforme a demanda ela aloca mais recursos e desaloca quando necessário, sendo cobrado somente o tempo de uso enquanto a função foi usada.
+
+Azure ExpressRoute - são conexões realizadas diretamente na nuvem da Microsoft, podendo ser feita via VPN, conexão privada via provedor de conectividade, uma rede ponto a ponto ou via através de uma conexão crizada virtual numa instalação de colocalização. Também é possível fazer conexões diretas entre escritórios, centro de dados ou outras instalações a nuvem da Microsoft. A ligação expressRoute não utiliza a internet pública. 
 
 
 
