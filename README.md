@@ -83,6 +83,22 @@ Azure functions - não requer a manutenção de máquinas virtuais ou contêiner
 
 Azure ExpressRoute - são conexões realizadas diretamente na nuvem da Microsoft, podendo ser feita via VPN, conexão privada via provedor de conectividade, uma rede ponto a ponto ou via através de uma conexão crizada virtual numa instalação de colocalização. Também é possível fazer conexões diretas entre escritórios, centro de dados ou outras instalações a nuvem da Microsoft. A ligação expressRoute não utiliza a internet pública. 
 
+## Armazenamento do Azure
+
+Redundância - entre vários data centers para que as informações e serviços fiquem ativos e protegidos de eventos como falhas, problemas de hardwares e energia. E também para cópias de segurança garantindo disponibilidade e durabilidade. A nuvem da Microsoft oferece alguma opções que podem atender aos clientes dependendo do que ele necessita.
+LRS - Armazenamento com redundância local
+ZRS - Armazenamento com redundância de zona
+GRS - Armazenamento com redundância geográfica
+GZRS - Armazenamento com redundância de zona geográfica
+
+LRS - nessa redundância os dados estão armazenados em um único datacenter na mesma região e estão replicados três vezes dentro desse data center.  Protege os dados contra falhas de rack e drive do servidor. É uma redundância de menor custo.
+
+ZRS - armazena os dados em 3 datacenters diferentes da mesma região primária. Mesmo que um data center fique indisponível, os dados ficam com acesso de leitura e gravação porque estão em outro zona. Se um data center dicar indisponível, é realizada atualizações de rede para que os clientes continuem acessando. Esse cenários é recomendado para situações que deve ser atendido aos requisitos de governança de dados.
+
+GRS - armazena os dados em um único data center da mesma região e replica de forma assíncrona para a região par da região principal usando o LRS. Nesse caso os dados podem estar armazenados a quilômetros de distância oferecendo uma alta segurança para perda e acesso. 
+
+GZRS - Nesse caso as informações ficam armazenadas nos três data centers da região primária protegendo de interrupções regionais e é replicado para outro data center de outro região usando LRS, que no caso é o par da região principal. Caso toda a região primária venha a sofrer algum dano climático ou catastrófico, os dados permanecem acessíveis.
+
 
 
 
