@@ -99,6 +99,39 @@ GRS - armazena os dados em um único data center da mesma região e replica de f
 
 GZRS - Nesse caso as informações ficam armazenadas nos três data centers da região primária protegendo de interrupções regionais e é replicado para outro data center de outro região usando LRS, que no caso é o par da região principal. Caso toda a região primária venha a sofrer algum dano climático ou catastrófico, os dados permanecem acessíveis.
 
+## Serviços de armazenamento do Azure
+
+Inclui os seguintes serviços:
+
+Blobs do Azure
+É uma forma de armazenar os objetos na nuvem do Azure. Ele armazena qualquer tipo de arquivos e não trabalha de forma estruturada. Pode armazenar grandes quantidade de arquivos e não são limitados a tamanho de arquivos comuns. Os desenvolvedores não precisam se preocupar com o discos e nem com o gerenciamento deles, os blobs do azure fazer todo o gerenciamento.
+Existem arquivos que depois de irem para a nuvem da Azure não são acessados frequentemente, ou seja, são acessados raramente diferente de outros que com mais frequência, interferindo nos custos. Diante disso, existem as camadas de acesso disponíveis:
+Camada de acesso quente - dados de são acessados com mais frequência
+Camada de acesso esporádico - dados acessados com menos frequência e armazenados por pelo menos 30 dias
+Camada de acesso frio - dados acessados com pouca frequência e armazenados por pelo menos 90 dias
+Camada de acesso aos arquivos - dados acessados raramente e armazenados por pelo menos 180 dias
+Todos os dados de armazenamento do blob podem ser acessados de qualquer lugar do mundo através de HTTP ou HTTPS.
+
+Arquivos do Azure
+São fornecidos na nuvem de forma gerenciada através dos protocolos SMB e NFS. De forma geral, é o famoso acesso \\ que é utilizado em muitas redes. Ele esta disponível para ser acessado através do Windows, Linux e MacOS.
+
+Filas do Azure
+Disponível para armazenar grandes quantidades de mensagens sendo acessadas de qualquer lugar do mundo através de chamadas autenticadas usando HTTP ou HTTPS. A quantidade de mensagem da fila é determinada pela conta de armazenamento do usuário. Cada mensagem individual pode ter até 64KB de tamanho.
+
+Discos do Azure
+São discos virtualizados utilizados como VMs do Azure, onde é possível somente provisionar o disco e deixar que o Azure faça o resto.
+
+Tabelas do Azure
+Armazena grandes quantidades de dados estruturados e não relacionais, sendo repositórios de dados NoSQL que aceita chamados de dentro e fora da nuvem do Azure.
+
+## Migração de dados do Azure
+
+Fornece a migração dos dados do data center interno da empresa para a nuvem do Azure através de opções como o AzCopy e o Azure Data Box.
+
+AzCopy - é um utilitário de linha de comando que auxilia a cópia de arquivos pequenos ou individuais para uma conta de armazenamento da nuvem Azure. É possível copiar, baixar arquivos e também sincronizar dados blobs.
+
+Azure Data Box - É literalmente um caixa física onde é possível armazenar até 80 terabytes de dados. Ela serve para transferir grandes quantidade de dados e é disponibilizada pela Microsoft para ela seja transportada até o local do cliente e depois da cópia concluída retorne para que seja feita a cópia dos dados para a nuvem da Azure. Toda essa transferência de dados é realizada de forma criptografada.  
+
 
 
 
