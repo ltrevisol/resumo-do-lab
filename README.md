@@ -132,6 +132,11 @@ AzCopy - é um utilitário de linha de comando que auxilia a cópia de arquivos 
 
 Azure Data Box - É literalmente um caixa física onde é possível armazenar até 80 terabytes de dados. Ela serve para transferir grandes quantidade de dados e é disponibilizada pela Microsoft para ela seja transportada até o local do cliente e depois da cópia concluída retorne para que seja feita a cópia dos dados para a nuvem da Azure. Toda essa transferência de dados é realizada de forma criptografada.  
 
+## Identidade, acesso e segurança
+
+Microsoft Entra ID
+É o novo nome para o Microsoft Active Directory. Com ele é possível fazer o gerenciamento das contas de identidade na nuvem, ou seja, acesso aos aplicativos de nuvem da Microsoft e os aplicativos desenvolvidos pela empresa.
+
 
 
 
